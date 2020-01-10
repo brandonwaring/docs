@@ -39,7 +39,7 @@ To display the `child.vue` component, we have to insert `<nuxt-child/>` inside `
 <template>
   <div>
     <h1>I am the parent view</h1>
-    <nuxt-child :foobar="123" />
+    <nuxt-child :foobar="123" /> // where does foobar and 123 come from in this example?? 
   </div>
 </template>
 ```
